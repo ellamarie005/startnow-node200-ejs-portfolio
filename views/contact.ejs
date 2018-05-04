@@ -1,21 +1,22 @@
 <html>
   <head>
-    <title>Contact Tom</title>
+    <title>Contact Ella</title>
   </head>
   <body>
-    <div>
-      <form action="/thanks" method="POST">
-        <label for="firstName">First Name:</label>
-        <input id="firstName" name="firstName" type="text">
-
-        <label for="lastName">Last Name:</label>
-        <input id="lastName" name="lastName" type="text">
-
-        <label for="email">Email:</label>
-        <input id="email" name="email" type="text">
-
-        <input type="submit" />
+      <form class="row" action="/thanks" method="POST">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="firstName" name="firstName" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+        <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea>
+        <br>
+        <div class="row">
+          <div class="col-md-12 form-group">
+            <button class="btn pull-right" type="submit">Send</button>
+          </div>
+        </div>
       </form>
-    </div>
   </body>
 </html>

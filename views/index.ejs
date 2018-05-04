@@ -55,14 +55,13 @@
           <p>Born in the Philippines, and moved to America when I was thirteen. I graduated from University of California, San
             Diego with Biochemistry and Cell Biology B.S. During my undergraduate career, I was involved with Kaibigang Pilipino,
             Student Promoted Access Center for Education and Service(SPACES), Habitat for Humanity, and Sanford Burnham Medical
-            Research Institute. Post-undergraduate, I began working as a Research Assistant in SBP, where I became more meticulous,
-            detail-attentive, and analytic. With this career, not only did I learned to be a team player, but also become
+            Research Institute. Post-undergraduate, I began working as a Research Assistant in SBP, where I became more meticulous, 
+            analytic, and curious. With this career, not only did I learned how to be a team player, but also become
             an independent learner.
           </p>
-          <p>I have always been interested with coding, and was able to learn through several online resources. After a year
-            of self-taught, I have decided to invest in myself and enroll with Origin Code Academy(OCA), and pursue Software
-            Development as my second career. With OCA's help, I am able to hone my skills, and pursue my passion, which I
-            will forever be grateful for.
+          <p>I have always been interested in coding, and was able to learn through several online resources. After a year
+            of using online websites, I have decided to invest in myself and enroll with Origin Code Academy(OCA).
+            I will forever be grateful for Origin for helping me hone my skills and for embracing my passion.
           </p>
         </div>
       </div>
@@ -73,22 +72,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="container-fluid bg-grey">
-      <div class="row">
-        <div class="col-sm-4">
-          photos....
-        </div>
-        <div class="col-sm-8">
-          <h2>My Values</h2>
-          <br>
-          <h4>
-            <strong>MISSION:</strong>type goals here...</h4>
-          <br>
-          <p>
-            <strong>VISION:</strong> type vision....</p>
-        </div>
-      </div> -->
   </div>
 
   <!-- Container (Portfolio Section) -->
@@ -110,9 +93,8 @@
         </a>
       </div>
       <div class="col-sm-4">
-        <a href="https://et-vstda.herokuapp.com/">
+        <a href="https://et-vstda.herokuapp.com/" target="_blank">
           <div class="thumbnail">
-
             <img src="https://drive.google.com/uc?id=1dfofRmF7bR42bpWieB4pYz8aAyisqc7T" alt="Very Simple ToDo App" width="450" height="300">
             <p>
               <strong>Very Simple ToDo App</strong>
@@ -122,11 +104,11 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <a href="https://et-top-spots.herokuapp.com/" target="_blank"></a>
+          <a href="https://et-top-spots.herokuapp.com/" target="_blank">
           <img src="https://drive.google.com/uc?id=17Dce8TpMMxO_epPSLsL91_CeomCG2Egu" alt="Hackathon" width="400" height="300">
           <p>
             <strong>Hackathon</strong>
-          </p>
+          </p></a>
         </div>
       </div>
     </div>
@@ -159,31 +141,30 @@
         </p>
       </div>
       <div class="col-md-8">
-        <div class="row">
+        <form class="row" action="/thanks" method="POST">
           <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            <input class="form-control" id="firstName" name="firstName" placeholder="Name" type="text" required>
           </div>
           <div class="col-sm-6 form-group">
             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
           </div>
-        </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-        <br>
-        <div class="row">
-          <div class="col-md-12 form-group">
-            <button class="btn pull-right" type="submit">Send</button>
+          <textarea class="form-control" id="comment" name="comment" placeholder="Comment" rows="5"></textarea>
+          <br>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Send</button>
+            </div>
           </div>
+        </form>
+      </div>
+      <footer class="container-fluid text-center">
+        <div class="col-md-12" style="margin-top: 20px">
+          <a href="#cover" class="btn btn-default">Back to the Top</a>
+          <a href="#about" class="btn btn-default">About Me</a>
+          <a href="#portfolio" class="btn btn-default">Portfolio</a>
         </div>
-      </div>
-    </div>
-    <footer class="container-fluid text-center">
-      <div class="col-md-12" style="margin-top: 20px">
-        <a href="#cover" class="btn btn-default">Back to the Top</a>
-        <a href="#about" class="btn btn-default">About Me</a>
-        <a href="#portfolio" class="btn btn-default">Portfolio</a>
-      </div>
-      <p style="margin-bottom:-10%">Copyright Ella Marie 2017. All Rights Reserved</p>
-    </footer>
+        <p style="margin-bottom:-10%">Copyright Ella Marie 2017. All Rights Reserved</p>
+      </footer>
 </body>
 
 </html>
