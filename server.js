@@ -67,6 +67,6 @@ app.get("*", function (req, res) {
   res.send("Whoops, page does not exist... I mean not found 404").status(404);
 })
 
-app.listen(8080, () => {
-  console.log('listening at http://localhost:8080')
+app.listen(3000, () => {
+  console.log('listening at http://localhost:3000')
 });
