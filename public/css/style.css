@@ -1,0 +1,52 @@
+#jumbo {
+  background: rgb(196, 192, 192);
+  /* This is for ie8 and below */
+  background: rgba(255, 255, 255, 0.44);
+}
+
+#cover {
+  background: url("https://drive.google.com/uc?id=1rF5uHc-PwdeqIMh_1CmQ9hEvV8YWjj0m");
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#about {
+  background: url("https://drive.google.com/uc?id=1nwx74XRvGj8qWZiqMI0FhovCsFbDxWlZ");
+  background-size: cover;
+  padding-top: 12%;
+  padding-bottom: 15%;
+}
+
+#portfolio {
+  background: url("https://drive.google.com/uc?id=1rF5uHc-PwdeqIMh_1CmQ9hEvV8YWjj0m");
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+ .thumbnail{
+   opacity: 0.9;
+   height: 200px;
+ }
+
+ #slide {
+   border: solid;
+   border-color: white;
+   opacity: 0.9;
+ }
+
+ #hobbies {
+  background-color: rgba(255, 255, 255, 0.486);
+  text-align: center;
+ }
+
+ #portName {
+   color: white;
+ }
+
+ #aboutMe {
+   background-color: rgba(255, 255, 255, 0.486);
+   margin-left:20px;
+   margin-right:20px;
+   padding: 10px;
+ }
