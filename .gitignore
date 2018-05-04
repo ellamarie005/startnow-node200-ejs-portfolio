@@ -1,4 +1,4 @@
-twilio.env
+.env
 lib-cov
 coverage
 .DS_Store
